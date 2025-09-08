@@ -10,9 +10,12 @@ Este repositorio contiene los proyectos base, recursos y guías que necesitarás
 
 Sigue estos pasos para tener tu entorno listo para la acción.
 
+Hemos preparado un Entorno Virtual donde podrás obtener los recursos necesarios para hacer el lab: Podrás encontrarlo el día del hackathon aqui: https://explore.qwiklabs.com/ registrándote con tu cuenta de registro del hackathon. Durante el día del evento os enseñaremos como utilizar este entorno, etc.
+
+
 ### 1. Prerrequisitos
 
-Asegúrate de tener instalado el siguiente software en tu máquina:
+Asegúrate de tener instalado el siguiente software en tu entorno virtual o máquina:
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Python](https://www.python.org/downloads/) (versión 3.9 o superior)
 - (Opcional) [JDK](https://www.oracle.com/java/technologies/downloads/) (si prefieres trabajar con Java)
@@ -26,18 +29,25 @@ https://google.github.io/adk-docs/get-started/installation/
 
 Abre tu terminal y clona este repositorio en tu máquina local:
 ```bash
-git clone <URL-DE-TU-REPOSITORIO>
-cd hackathon-sistemas-de-agentes
+git clone "https://github.com/DivergerThinking/hackathon-ADK-Google"
+cd hackathon-ADK-Google
 ```
 
 ### 3. Elige tu Desafío y Proyecto Base
 
 Tenemos 3 retos temáticos para inspirarte. Hemos preparado proyectos base para que no empieces desde cero.
 
+🧠 **Agente de Deep Research** 
+Un sistema que colabora para investigar a fondo cualquier temática, analizando documentos o papers.`python/academic-research` 
 
-| 🧠 **Agente de Deep Research** | Un sistema que colabora para investigar a fondo cualquier temática, analizando documentos o papers. | `python/academic-research` | Python |
-| 🗣️ **Agente por Interlocución de Voz** | Un agente para gestionar reservas, cobros o soporte, que pueda interactuar en tiempo real. | `python/custom-streaming` | Python |
-| ✨ **Reto de Temática Libre** | ¡Tu idea, tus reglas! Usa las herramientas para construir el agente que siempre has imaginado. | Cualquiera de los anteriores | Python, Java... |
+🗣️ **Agente por Interlocución de Voz**
+Un agente para gestionar reservas, cobros o soporte, que pueda interactuar en tiempo real. 
+`python/custom-streaming`
+
+✨ **Reto de Temática Libre** 
+¡Tu idea, tus reglas! Usa las herramientas para construir el agente que siempre has imaginado.
+Cualquiera de los anteriores
+
 
 ### 4. Configura tu Proyecto Base (Ejemplo con Python)
 

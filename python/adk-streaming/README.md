@@ -15,53 +15,7 @@ Es el punto de partida ideal para el reto **"Agente por Interlocución de Voz"**
 
 Sigue estos pasos para ponerlo en marcha en menos de 5 minutos.
 
-#### 1. Obtén tu Clave de API de Gemini
-
-Necesitarás una clave de API para usar el modelo Gemini de Google.
--   Ve a **[Google AI Studio](https://aistudio.google.com/app/apikey)**.
--   Haz clic en "Create API key" para generar una nueva clave.
--   Cópiala. La necesitarás en el siguiente paso.
-
-#### 2. Configura tu Clave de API
-
--   Renombra el archivo `.env.example` a `.env`.
--   Abre el nuevo archivo `.env` y pega tu clave de API donde se indica.
-
-    ```
-    API_KEY="aquí-va-tu-clave-copiada"
-    ```
-
-#### 3. Prepara tu Entorno e Instala Dependencias
-
-Es una buena práctica usar un entorno virtual de Python.
-
-```bash
-# 1. Crea un entorno virtual
-python -m venv venv
-
-# 2. Actívalo
-#    En macOS/Linux:
-source venv/bin/activate
-#    En Windows:
-#    .\venv\Scripts\activate
-
-# 3. Instala todas las librerías necesarias
-pip install -r requirements.txt
-```
-
-#### 4. Ejecuta el Servidor Backend
-
-Con tu entorno virtual activado, ejecuta el siguiente comando en tu terminal:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
--   `uvicorn` es el servidor que ejecuta nuestra aplicación `FastAPI`.
--   `--reload` hace que el servidor se reinicie automáticamente si haces cambios en el código.
-
-Verás una salida que indica que el servidor está corriendo en `http://0.0.0.0:8000`.
-
-#### 5. Abre el Frontend y ¡Chatea!
+https://google.github.io/adk-docs/streaming/custom-streaming-ws/
 
 -   Abre tu navegador web (Chrome, Firefox, etc.).
 -   Ve a la dirección: **`http://localhost:8000`**

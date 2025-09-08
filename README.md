@@ -29,7 +29,7 @@ https://google.github.io/adk-docs/get-started/installation/
 
 Abre tu terminal y clona este repositorio en tu máquina local:
 ```bash
-git clone "https://github.com/DivergerThinking/hackathon-ADK-Google"
+git clone https://github.com/DivergerThinking/hackathon-ADK-Google
 cd hackathon-ADK-Google
 ```
 

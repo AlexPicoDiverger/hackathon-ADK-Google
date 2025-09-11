@@ -84,7 +84,7 @@ Cualquiera de los anteriores
     -   **Python:** [ADK Custom Streaming Docs](https://google.github.io/adk-docs/streaming/custom-streaming/)
     -   **Java:** [ADK Streaming Quickstart Java](https://google.github.io/adk-docs/get-started/streaming/quickstart-streaming-java/)
 
-> **Nota para desarrolladores Java y Node.js:** ¡Sois más que bienvenidos! Aunque los ejemplos principales están en Python, el ADK es compatible con Java y Node.js. Anímate a usar la base de `custom-streaming` en Java o a adaptar los conceptos a Node.js. Si tienes dudas, ¡pregunta a los mentores!
+> **Nota para desarrolladores Java:** ¡Sois más que bienvenidos! Aunque los ejemplos principales están en Python, el ADK es compatible con Java. Anímate a usar la base de `custom-streaming` en Java. Si tienes dudas, ¡pregunta a los mentores!
 Tienes ejemplos de Agentes en Java aqui: https://github.com/google/adk-samples/tree/main/java/agents
 
 

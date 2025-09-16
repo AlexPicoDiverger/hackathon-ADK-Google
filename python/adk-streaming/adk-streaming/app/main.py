@@ -36,7 +36,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 
-from google_search_agent.agent import root_agent
+from agente_orquestador.agent import agente_orquestador
 
 warnings.filterwarnings("ignore", category=UserWarning, module="pydantic")
 
@@ -56,7 +56,7 @@ async def start_agent_session(user_id, is_audio=False):
     # Create a Runner
     runner = InMemoryRunner(
         app_name=APP_NAME,
-        agent=root_agent,
+        agent=agente_orquestador,
     )
 
     # Create a Session
